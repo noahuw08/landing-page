@@ -6,7 +6,7 @@ body {
 #wrapper {
     margin-left: auto;
     margin-right: auto;
-    overflow-x: hidden;
+    overflow-x: scroll;
     position: relative;
 }
 
