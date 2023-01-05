@@ -37,6 +37,7 @@ body {
 .mystatus {
     padding-right: 80px;
     position: relative;
+    overflow: hidden;
 }
 
 .link {
@@ -91,6 +92,9 @@ img {
     height: auto;
     width: 200px;
     border-radius: 16px;
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
 }
 
 .waterloo {
@@ -101,20 +105,6 @@ img {
 
 .brief {
     padding: 40px;
-}
-
-button {
-    display: flex;
-    background-color: #3882f6;
-    font-size: 18px;
-    color: white;
-    height: 40px;
-    width: 100px;
-    flex-shrink: 0;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    border: 2px solid white;
 }
 
 /* end of intro style */
@@ -135,6 +125,7 @@ button {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+    flex-shrink: 0;
 }
 
 .container {
@@ -143,6 +134,7 @@ button {
     gap: 60px;
     margin-left: 18px;
     margin-right: 18px;
+    flex-shrink: 0;
 }
 
 img {
@@ -176,7 +168,7 @@ img {
 
 .fields {
     gap: 120px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .actuary, .cs, .quants, .stats {
